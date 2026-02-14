@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para mi Princesa Hermosa 💙</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="envelope-container">
+        <div class="envelope" id="miSobre" onclick="abrirSobre()">
+            <div class="top-flap"></div>
+            
+            <div class="letter" id="miCarta">
+                <h1>Hola amor...</h1>
+                <p>¿Me amas muchote?</p>
+                
+                <div class="btn-group">
+                    <button class="btn btn-yes" onclick="mostrarHistoria(event)">¡OBVIO QUE SI GORDIS! 💙</button>
+                    <button class="btn btn-no" id="btnNo" onmouseover="moverBotonNo(event)" ontouchstart="moverBotonNo(event)">NO FEO...😛</button>
+                </div>
+            </div>
+
+            <div class="front flap-left"></div>
+            <div class="front flap-right"></div>
+        </div>
+        <p class="instruction">Tienes un correo nuevo 💌 (Haz clic)</p>
+    </div>
+
+    <div id="main-story">
+        <div class="story-header" data-aos="fade-down">
+            <h2>Nuestra pequeña historia...</h2>
+            <p>Desliza hacia abajo 👇</p>
+        </div>
+
+        <div class="moment-row">
+            <div class="photo-frame" data-aos="fade-right">
+                <img src="imagenes/photo_2026-02-14_09-11-50.jpg" alt="Foto 1">
+            </div>
+            <div class="text-box" data-aos="fade-left">
+                <h3>El comienzo de todo</h3>
+                <p>Nuestro primer beso(aparte de feos no sabiamos besar JAJAJ), lleno de risa, abrazos y mas besos JAJJAJ cosas de muchacho la verdad </p>
+            </div>
+        </div>
+
+        <div class="moment-row reverse">
+            <div class="photo-frame" data-aos="fade-left">
+                <img src="imagenes/photo_2026-02-14_09-19-28.jpg" alt="Foto 2">
+            </div>
+            <div class="text-box" data-aos="fade-right">
+                <h3>Nuestro Primer Viaje</h3>
+                <p>Como no recordar nuestro primer viaje lleno de locuras, risas y sobre todo mucho amor....La verdad no tenia fé de ir pero a la final se dio y bueno es un recuerdo muy hermoso que siempre atesorare por el resto de mi vida...te amo mi niñaa💙💙 </p>
+            </div>
+        </div>
+
+        <div class="moment-row">
+            <div class="photo-frame" data-aos="fade-up">
+                <img src="imagenes/photo_2026-02-14_09-24-08.jpg" alt="Foto 3">
+            </div>
+            <div class="text-box" data-aos="fade-up">
+                <h3>Por muchos más</h3>
+                <p>A la final hemos vivido muchas cosas en estos 5 años que no caben en una simple hoja de papel(en esta pagina si pero son muchasssss JAJA), a la final solo espero transmitir todo el amor que siento hacia ti y seguir guardando mas momentos asi...te amo con toda la intensidad de mi vida..TE AMOO💙💙💙 </p>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 50px; font-family: 'Dancing Script'; font-size: 2rem; color: #d44d5c;" data-aos="zoom-in">
+            FIN 💙
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
